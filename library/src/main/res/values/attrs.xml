@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BidirectionalSeekBar">
+        <attr name="pb_within_color" format="color" />
+        <attr name="pb_without_color" format="color" />
+        <attr name="pb_height" format="dimension" />
+        <attr name="ball_left_solid_color" format="color" />
+        <attr name="ball_right_solid_color" format="color" />
+        <attr name="ball_left_stroke_color" format="color" />
+        <attr name="ball_right_stroke_color" format="color" />
+        <attr name="ball_radius_size" format="dimension" />
+        <attr name="ball_stroke_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_position" format="enum">
+            <enum name="gone" value="0"/>
+            <enum name="below" value="1"/>
+            <enum name="above" value="2"/>
+        </attr>
+        <attr name="text_units" format="string"/>
+        <attr name="ball_left_drawable" format="reference"/>
+        <attr name="ball_right_drawable" format="reference"/>
+    </declare-styleable>
+</resources>
