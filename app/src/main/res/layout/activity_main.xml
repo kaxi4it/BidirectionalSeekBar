@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     >
 
     <TextView
         android:text="Hello World!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        be
         />
-</RelativeLayout>
+    <com.easy.bidirectionalseekbar.BidirectionalSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:ball_left_solid_color="@color/colorPrimary"
+        app:ball_left_stroke_color="@color/colorAccent"
+        app:ball_right_solid_color="@color/colorPrimary"
+        app:ball_right_stroke_color="@color/colorAccent"
+        app:ball_radius_size="10dp"
+        app:ball_stroke_size="0px"
+        app:pb_height="5dp"
+        app:pb_within_color="@color/colorPrimaryDark"
+        app:pb_without_color="@color/colorAccent"
+        app:text_position="gone"
+        app:unit_position="gone"
+        />
+</LinearLayout>

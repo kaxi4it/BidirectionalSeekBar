@@ -18,8 +18,9 @@
             <enum name="above" value="2"/>
         </attr>
         <attr name="unit_position" format="enum">
-            <enum name="left" value="0"/>
-            <enum name="right" value="1"/>
+            <enum name="gone" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
         </attr>
         <attr name="text_units" format="string"/>
         <attr name="ball_left_drawable" format="reference"/>
