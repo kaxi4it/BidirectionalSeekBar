@@ -7,23 +7,28 @@
     >
 
     <TextView
+        android:id="@+id/text"
         android:text="Hello World!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
     <com.easy.bidirectionalseekbar.BidirectionalSeekBar
-        android:layout_width="match_parent"
+        android:id="@+id/bSeekBar"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:ball_left_solid_color="@color/colorPrimary"
-        app:ball_left_stroke_color="@color/colorAccent"
-        app:ball_right_solid_color="@color/colorPrimary"
-        app:ball_right_stroke_color="@color/colorAccent"
-        app:ball_radius_size="10dp"
-        app:ball_stroke_size="0px"
-        app:pb_height="5dp"
-        app:pb_within_color="@color/colorPrimaryDark"
-        app:pb_without_color="@color/colorAccent"
+        app:ball_left_solid_color="@android:color/white"
+        app:ball_left_stroke_color="@android:color/black"
+        app:ball_right_solid_color="@android:color/holo_green_light"
+        app:ball_right_stroke_color="@android:color/holo_green_dark"
+        app:ball_radius_size="8dp"
+        app:ball_stroke_size="1dp"
+        app:text_left_num="100"
+        app:text_right_num="357"
+        app:text_min_unit="1"
+        app:pb_height="3dp"
+        app:pb_within_color="@android:color/holo_blue_bright"
+        app:pb_without_color="@android:color/holo_red_light"
         app:text_position="gone"
         app:unit_position="gone"
         />

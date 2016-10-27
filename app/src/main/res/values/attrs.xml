@@ -12,6 +12,9 @@
         <attr name="ball_stroke_size" format="dimension" />
         <attr name="text_color" format="color" />
         <attr name="text_size" format="dimension" />
+        <attr name="text_left_num" format="integer"/>
+        <attr name="text_right_num" format="integer"/>
+        <attr name="text_min_unit" format="integer"/>
         <attr name="text_position" format="enum">
             <enum name="gone" value="0"/>
             <enum name="below" value="1"/>
