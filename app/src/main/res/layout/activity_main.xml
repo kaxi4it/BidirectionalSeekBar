@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/text1"
         android:text="Hello World!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
-    <com.easy.bidirectionalseekbar.BidirectionalSeekBar
-        android:id="@+id/bSeekBar"
+    <com.guyj.BidirectionalSeekBar
+        android:id="@+id/bSeekBar1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
         app:ball_left_solid_color="@android:color/white"
         app:ball_left_stroke_color="@android:color/black"
         app:ball_right_solid_color="@android:color/holo_green_light"
@@ -29,7 +31,31 @@
         app:pb_height="3dp"
         app:pb_within_color="@android:color/holo_blue_bright"
         app:pb_without_color="@android:color/holo_red_light"
-        app:text_position="gone"
-        app:unit_position="gone"
+        app:ball_left_drawable="@mipmap/ic_launcher"
+        app:ball_right_drawable="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:text="Hello World!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <com.guyj.BidirectionalSeekBar
+        android:id="@+id/bSeekBar2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:ball_left_solid_color="@android:color/white"
+        app:ball_left_stroke_color="@android:color/black"
+        app:ball_right_solid_color="@android:color/holo_green_light"
+        app:ball_right_stroke_color="@android:color/holo_green_dark"
+        app:ball_radius_size="12dp"
+        app:ball_stroke_size="2dp"
+        app:text_left_num="200"
+        app:text_right_num="500"
+        app:text_min_unit="10"
+        app:pb_height="4dp"
+        app:pb_within_color="@android:color/holo_blue_bright"
+        app:pb_without_color="@android:color/holo_red_light"
         />
 </LinearLayout>

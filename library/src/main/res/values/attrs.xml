@@ -10,13 +10,9 @@
         <attr name="ball_right_stroke_color" format="color" />
         <attr name="ball_radius_size" format="dimension" />
         <attr name="ball_stroke_size" format="dimension" />
-        <attr name="text_color" format="color" />
-        <attr name="text_size" format="dimension" />
-        <attr name="text_position" format="enum">
-            <enum name="gone" value="0"/>
-            <enum name="below" value="1"/>
-            <enum name="above" value="2"/>
-        </attr>
+        <attr name="text_left_num" format="integer"/>
+        <attr name="text_right_num" format="integer"/>
+        <attr name="text_min_unit" format="integer"/>
         <attr name="text_units" format="string"/>
         <attr name="ball_left_drawable" format="reference"/>
         <attr name="ball_right_drawable" format="reference"/>
