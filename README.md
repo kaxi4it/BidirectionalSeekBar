@@ -35,20 +35,20 @@ dependencies {
     app:ball_right_drawable="@mipmap/ic_launcher"
     />
 ```
-ball_left_solid_color 代表左侧圆球的填充色
-ball_left_stroke_color 代表左侧圆球的边框颜色
-ball_right_solid_color 代表右侧圆球的填充色
-ball_right_stroke_color 代表右侧圆球的边框颜色
-ball_radius_size 圆球半径
-ball_stroke_size 圆球边框显示宽度
-text_left_num 进度条最小值 单位int
-text_right_num 进度条最大值 单位int
-text_min_unit 进度条可拖动的最小单位 单位int
-pb_height 进度条高度
-pb_within_color 双向选中部分的进度条颜色
-pb_without_color 双向未选中部分的进度条颜色
-ball_left_drawable 左侧圆球可以引用图片资源
-ball_right_drawable 右侧圆球可以引用图片资源
+ball_left_solid_color 代表左侧圆球的填充色<br>
+ball_left_stroke_color 代表左侧圆球的边框颜色<br>
+ball_right_solid_color 代表右侧圆球的填充色<br>
+ball_right_stroke_color 代表右侧圆球的边框颜色<br>
+ball_radius_size 圆球半径<br>
+ball_stroke_size 圆球边框显示宽度<br>
+text_left_num 进度条最小值 单位int<br>
+text_right_num 进度条最大值 单位int<br>
+text_min_unit 进度条可拖动的最小单位 单位int<br>
+pb_height 进度条高度<br>
+pb_within_color 双向选中部分的进度条颜色<br>
+pb_without_color 双向未选中部分的进度条颜色<br>
+ball_left_drawable 左侧圆球可以引用图片资源<br>
+ball_right_drawable 右侧圆球可以引用图片资源<br>
 >目前版本使用中的关键点如下：
 a. 如果使用图片资源代替圆球，那么需要左右2个圆球全部被替换，左右2个图片资源建议等宽等高，否则会出现你不想看到的结果，后续更新中可能会解决非等宽等高的图片问题
 b. 当用图片资源替换圆球后，那么圆球半径，边框宽度，圆球颜色等属性为失效不可用状态，你写了也是白写
