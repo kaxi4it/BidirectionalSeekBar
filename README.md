@@ -4,11 +4,22 @@
 ![](http://upload-images.jianshu.io/upload_images/3344501-26ca5fce7048d85b.gif?imageMogr2/auto-orient/strip)
 ### 二 使用方法
 ---
-1. 在你项目module的gradle中添加引用
-[ ![最新版本号](https://api.bintray.com/packages/guyj/maven/BidirectionalSeekBar/images/download.svg) ](https://bintray.com/guyj/maven/BidirectionalSeekBar/_latestVersion)
+> 由于新版jcenter强制添加组织还要收费貌似，所以改用jitpack了
+
+![最新版本号](https://jitpack.io/v/kaxi4it/BidirectionalSeekBar.svg)
+1. 在你root的gradle中添加引用
+```java
+allprojects {
+    repositories {
+    ...
+    maven { url "https://jitpack.io" }
+    }
+ }
+```
+然后在module的gradle中添加引用
 ```java
 dependencies {
-    compile 'com.guyj:BidirectionalSeekBar:1.0' 
+    compile 'com.github.kaxi4it:BidirectionalSeekBar:1.0'
 }
 ```
 2. 在你的布局文件中添加xml代码如：
