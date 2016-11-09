@@ -1,12 +1,10 @@
 # BidirectionalSeekBar
 ### 一 效果图
----
 ![](http://upload-images.jianshu.io/upload_images/3344501-26ca5fce7048d85b.gif?imageMogr2/auto-orient/strip)
 ### 二 使用方法
----
 > 由于新版jcenter强制添加组织还要收费貌似，所以改用jitpack了
 
-![最新版本号](https://jitpack.io/v/kaxi4it/BidirectionalSeekBar.svg)
+![最新版本号](https://jitpack.io/v/kaxi4it/BidirectionalSeekBar.svg)<br>
 1. 在你root的gradle中添加引用
 ```java
 allprojects {
@@ -76,5 +74,4 @@ bidirectionalSeekBar.setOnSeekBarChangeListener(new BidirectionalSeekBar.OnSeekB
 ```
 
 ### 三 最终章
----
 希望该控件能解决您的双向滑动需求
